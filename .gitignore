@@ -3,6 +3,18 @@
 
 .project
 
+<<<<<<< HEAD
 .pydevproject
 
 .settings/org.eclipse.core.resources.prefs
+=======
+js/persianDatepicker.html
+
+js/persianDatepicker.jade
+
+doc.txt
+
+js/pwt.datepicker.html
+
+js/pwt.datepicker.jade
+>>>>>>> 6fbac758316b04a17edc4df1b7f2aa1570bb08b1
