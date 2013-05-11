@@ -65,7 +65,7 @@ var View_MonthPage = {
 			},
 			renderDays : function(self) {
 				var t = new persianDate();
-				self.daysCount = t.getDaysInMonth(self.currentYear, self.month);
+				self.daysCount = t.daysInMonth(self.currentYear, self.month);
 				self.firstWeekDayOfMonth = t.getFirstWeekDayOfMonth(self.currentYear, self.month);
 				var i = 1;
 				$(self.daysBox).find("td").each(function(index) {
